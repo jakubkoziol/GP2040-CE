@@ -43,6 +43,7 @@ on:
           - MavercadeRev2
           - MavercadeRev3
           - MiSTercadeV2
+          - NamiTide
           - OpenCore0
           - OpenCore0MIXUP
           - OpenCore0WASD
