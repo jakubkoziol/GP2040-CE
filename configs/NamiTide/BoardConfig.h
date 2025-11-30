@@ -27,7 +27,7 @@
  #define GPIO_PIN_06 GpioAction::BUTTON_PRESS_L1     // L1     | LB     | L       | L1       | 5      | P4     |
  #define GPIO_PIN_21 GpioAction::BUTTON_PRESS_S1     // S1     | Back   | Minus   | Select   | 9      | Coin   |
  #define GPIO_PIN_20 GpioAction::BUTTON_PRESS_S2     // S2     | Start  | Plus    | Start    | 10     | Start  |
- #define GPIO_PIN_25 GpioAction::BUTTON_PRESS_L3     // L3     | LS     | LS      | L3       | 11     | LS     |
+ #define GPIO_PIN_27 GpioAction::BUTTON_PRESS_L3     // L3     | LS     | LS      | L3       | 11     | LS     |
  #define GPIO_PIN_23 GpioAction::BUTTON_PRESS_R3     // R3     | RS     | RS      | R3       | 12     | RS     |
  #define GPIO_PIN_18 GpioAction::BUTTON_PRESS_A1     // A1     | Guide  | Home    | PS       | 13     | ~      |
  #define GPIO_PIN_19 GpioAction::BUTTON_PRESS_A2     // A2     | ~      | Capture | ~        | 14     | ~      |
@@ -45,7 +45,7 @@
  #define GPIO_PIN_11 GpioAction::ASSIGNED_TO_ADDON
  #define GPIO_PIN_16 GpioAction::ASSIGNED_TO_ADDON
  #define GPIO_PIN_24 GpioAction::ASSIGNED_TO_ADDON
- #define GPIO_PIN_27 GpioAction::ASSIGNED_TO_ADDON
+ #define GPIO_PIN_25 GpioAction::ASSIGNED_TO_ADDON
  #define GPIO_PIN_28 GpioAction::ASSIGNED_TO_ADDON
  #define GPIO_PIN_29 GpioAction::ASSIGNED_TO_ADDON
  
@@ -124,7 +124,7 @@
     {GP_ELEMENT_PIN_BUTTON, {32, 26, 4, 4, 1, 1, 26, GP_SHAPE_ELLIPSE}},\
     {GP_ELEMENT_PIN_BUTTON, {58, 20, 4, 4, 1, 1, 21, GP_SHAPE_ELLIPSE}},\
     {GP_ELEMENT_PIN_BUTTON, {47, 17, 4, 4, 1, 1, 23, GP_SHAPE_ELLIPSE}},\
-    {GP_ELEMENT_PIN_BUTTON, {36, 16, 4, 4, 1, 1, 25, GP_SHAPE_ELLIPSE}},\
+    {GP_ELEMENT_PIN_BUTTON, {36, 16, 4, 4, 1, 1, 27, GP_SHAPE_ELLIPSE}},\
 }
 
 #define DEFAULT_BOARD_LAYOUT_B {\
