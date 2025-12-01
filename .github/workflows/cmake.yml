@@ -100,7 +100,7 @@ jobs:
           fetch-tags: true
 
       - name: Setup SDK pipeline
-        uses: Fortinbra/RaspberryPiPicoBuild@v8
+        uses: ed-flanagan/RaspberryPiPicoBuild
 
       - name: Download a Build Artifact
         uses: actions/download-artifact@v4.1.2
